@@ -1,0 +1,21 @@
+REST API - JSON
+
+1))
+GET /users - HTML document render
+GET /api/users - list all users JSON
+
+2))
+GET /api/users/1 - get user with id 1
+GET /api/users/2 - get user with id 2
+
+POST /api/users - Create new user
+
+PATCH /api/users/id - edit the user with id
+
+DELETE /api/users/id - delete the user with id
+
+
+-------------------------
+hard code the data , because we are not using any db
+
+ ->   mackaroo.com (which make fake data for the testing purpose)
